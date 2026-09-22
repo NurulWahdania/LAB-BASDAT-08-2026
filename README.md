@@ -1,7 +1,7 @@
 # LAB-BASDAT-08-2026 Repository
 
 
-Selamat datang di repositori LAB-BASDAT-10-2024! Repositori ini adalah tempat pengumpulan tugas praktikum untuk mata kuliah Praktikum Basis Data 2024. Berikut adalah panduan singkat untuk mengumpulkan tugas di repositori ini.
+Selamat datang di repositori LAB-BASDAT-08-2026! Repositori ini adalah tempat pengumpulan tugas praktikum untuk mata kuliah Praktikum Basis Data 2024. Berikut adalah panduan singkat untuk mengumpulkan tugas di repositori ini.
 
 ## Tata Cara Pengumpulan (Commit)
 
