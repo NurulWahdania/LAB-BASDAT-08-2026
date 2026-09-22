@@ -1,4 +1,4 @@
-# LAB-BASDAT-10-2024 Repository
+# LAB-BASDAT-08-2026 Repository
 
 
 Selamat datang di repositori LAB-BASDAT-10-2024! Repositori ini adalah tempat pengumpulan tugas praktikum untuk mata kuliah Praktikum Basis Data 2024. Berikut adalah panduan singkat untuk mengumpulkan tugas di repositori ini.
@@ -22,7 +22,7 @@ Bapak kau ingin memastikan bahwa tata cara pengumpulan kode (commit) ke reposito
 5. **Buat Cabang (Branch) Baru**: Masuk ke direktori repositori yang telah di-kloning. Lalu buat cabang sesuai nim masing-masing.
 
 ```bash
-cd LAB-BASDAT-10-2024
+cd LAB-BASDAT-08-2026
 git checkout -b H071231nnn # Sesuaikan dengan NIM masing-masing
 ```
 
@@ -62,4 +62,4 @@ git push -u origin H071231nnn # Sesuaikan dengan NIM masing-masing
 - Gunakan pesan commit yang jelas agar mudah dimengerti olehmu suatu saat nanti.
 - Terima kasih sudah mengerjakan tugas ygy!
 
-### -- LAB-BASDAT-10-2024 --
+### -- LAB-BASDAT-08-2026 --
