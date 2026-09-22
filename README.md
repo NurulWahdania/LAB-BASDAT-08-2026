@@ -1,39 +1,65 @@
-# LAB-Asistensi-BASDAT-08-2026
+# LAB-BASDAT-10-2024 Repository
 
-Repository tempat pengumpulan tugas praktikum Kelompok Asistensi 12 Lab Pemrograman Mobile Sistem Informasi
 
-## Aturan Pengumpulan
-**Note:**  
-_Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruksi yang ada dalam tanda < > tersebut. Contohnya `mkdir <NIM>` menjadi `mkdir H071221001`_
-- Silahkan fork repositori ini
-- Pada halaman fork, pastikan untuk mencentang 'Copy the `main` branch only'
-![sedikit catatan fork](https://i.ibb.co/HDtshRk2/Screenshot-2025-05-19-190003.png)
-- Lakukan clone terhadap hasil fork repository ini ke komputer lokal kalian
-  ```
+Selamat datang di repositori LAB-BASDAT-10-2024! Repositori ini adalah tempat pengumpulan tugas praktikum untuk mata kuliah Praktikum Basis Data 2024. Berikut adalah panduan singkat untuk mengumpulkan tugas di repositori ini.
+
+## Tata Cara Pengumpulan (Commit)
+
+Bapak kau ingin memastikan bahwa tata cara pengumpulan kode (commit) ke repositori ini mudah dipahami. Berikut langkah-langkahnya:
+
+1. **Fork Repositori Ini**: Di kanan atas halaman repositori, klik tombol "Fork" untuk membuat salinan repositori ini ke akun GitHub pribadimu.
+
+2. **Kloning Repositori**: Setelah kamu memiliki salinan repositori di akunmu, klik tombol "Code" dan pilih metode untuk mengunduh repositori. Salin URL yang diberikan.
+
+3. **Buka Terminal**: Buka terminal atau command prompt di laptopmu.
+
+4. **Kloning Repositori**: Ketik perintah berikut untuk mengkloning repositori ke laptopmu. Ganti `<repository-url>` dengan URL yang telah kamu salin.
+
+```bash
   git clone <url-repositori-hasil-fork>
-  ```
-- Pindah ke repositori hasil clone dengan perintah berikut
-  ```
-  cd LAB-Asistensi-BASDAT-08-2026
-  ```
-- Pindah ke branch NIM kalian serta gunakan branch tersebut untuk menyimpan kode dari soal yang dikerjakan
-  ```
-  git checkout <NIM>
-  ```
-- Buat folder baru berdasarkan NIM kalian
-  ```
-  mkdir <NIM>
-  ```
-- Buat Zip untuk project praktikum kalian dengan nama "Pertemuan_<no.pertemuan>" tanpa tanda kutip. contoh: Pertemuan_1 (**Pastikan membuat zip dengan cara seperti pada gambar di bawah**)
-  ![Cara Zip Project Android Studio](https://i.ibb.co.com/PfLhfnf/Screenshot-2025-04-06-210551.png)
-- Masukkan Zip file ke folder NIM yang telah dibuat dalam repositori lokal kalian
-- Setelah semua tugas diselesaikan dan telah diasistensikan lakukan perintah berikut
-  ```
-  git add .
-  git commit -m "<pesan commit>"
-  git push origin <NIM>
-  ```
-- Setelah perintah tersebut berhasil, silahkan membuka repository hasil fork kalian di github dan lakukan pull request ke repository ini.
-- Pastikan base branch sama dengan branch NIM kalian
-![panduan pull request](https://i.ibb.co.com/6Rp9ftrP/Whats-App-Image-2025-04-06-at-21-17-15.jpg)
-- Apabila terdapat kesulitan, silahkan menghubungi asistennya
+```
+
+5. **Buat Cabang (Branch) Baru**: Masuk ke direktori repositori yang telah di-kloning. Lalu buat cabang sesuai nim masing-masing.
+
+```bash
+cd LAB-BASDAT-10-2024
+git checkout -b H071231nnn # Sesuaikan dengan NIM masing-masing
+```
+
+6. **Masuk ke Folder**: Masuk ke directory/folder sesuai NIM.
+
+```bash
+cd H071231nnn # Sesuaikan dengan NIM masing-masing
+```
+
+7. **Lakukan Perubahan**: Mulai mengedit atau menambahkan berkas (folder maupun file tugas) sesuai dengan instruksi tugas yang diberikan.
+
+8. **Tambahkan File Tugas**: Setelah selesai melakukan perubahan pada kode, tambahkan file tugas tersebut lalu.
+
+```bash
+git add .
+```
+
+9. **Commit Perubahan**: Setelah semua tugas sudah ditambah, commit dengan pesan yang deskriptif.
+
+```bash
+git commit -m "Task 1: DDL"  # Sesuaikan pesan dengan tugas yang kamu kumpulkan
+```
+
+Note: Untuk cek status file apakah sudah ditambahkan maupun dikomit, bisa dilakukan dengan `git status`
+
+10. **Push ke GitHub**: Push cabang baru yang telah kamu buat ke repositori GitHub.
+
+```bash
+git push -u origin H071231nnn # Sesuaikan dengan NIM masing-masing
+```
+
+11. **Buka Pull Request**: Di halaman repositori akunmu, akan ada pemberitahuan untuk melakukan `Pull Request`. Klik tautan tersebut lalu lakukan `Pull Request` ke repositori utama ini.
+
+## Tips Tambahan
+
+- Pastikan untuk memberi nama yang deskriptif pada pesan commit tugas.
+- Gunakan pesan commit yang jelas agar mudah dimengerti olehmu suatu saat nanti.
+- Terima kasih sudah mengerjakan tugas ygy!
+
+### -- LAB-BASDAT-10-2024 --
